@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Clinica Sebastian Roman</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+  <link rel="shortcut icon" href="img/Logo_SebastianR.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body class="container-fluid p-0">
+  <div class="container-fluid p-0">
+    <header class="col-12">
+      <img class="banner" src="img/Blue Modern Medical Twitter Header.png" alt="" width="100%"  height="380px" >
+    </header>
+    <nav>
+      <ul class="nav nav-tabs justify-content-center  py-2" >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Registros
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Nusuario.html">Nuevos usuarios</a></li>
+            <li><a class="dropdown-item" href="Rprofesional.html">Profesionales</a></li>
+            <li><a class="dropdown-item" href="Rpacientes.html">Pacientes</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Rhistorial.html">Historial</a></li>
+       </ul>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="#">Informaciones</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link ">Especialidades</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link ">Consultas</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link ">Tratamientos</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link ">Salir</a>
+        </li>
+      </ul>
+  
+    </nav>
+
+  <div >
+    <div class="py-3 container">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-lg-6 offset-lg-1">
+          <div class="bg-white shadow rounded">
+            <div class="row">
+              <div class="col-md-12 pe-0">
+
+                <div class="form-left h-100 py-5 px-5">
+                  <form action="" class="row g-4">
+                    <div class="col-12">
+                      <center><img class="logo" src="img/Logo_SebastianR.png" alt="" width="300px" height="200px">
+                      </center>
+                      <center>
+                        <h3 class="mb-3 py-3">Registro de Historial</h3>
+                      </center>
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Codigo expediente" />
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="input-group">
+                        <input type="number" class="form-control" placeholder="DNI profesional" />
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="input-group">
+                        <input type="number" class="form-control" placeholder="DNI del paciente" />
+                      </div>
+                    </div>
+
+
+                    <div class="expe">
+                      <label for="" style="font-size: 17px ; font-family: Arial, Helvetica, sans-serif;">Creacion del
+                        expediente:</label>
+                    </div>
+                    <div class="col-12">
+                      <div class="input-group">
+                        <input type="date" class="form-control" placeholder="DNI del paciente" />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Estado</option>
+                        <option value="1">Activo</option>
+                        <option value="2">Inactivo</option>
+                      </select>
+                    </div>
+                    <div class="col-6">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Patologia personal</option>
+                        <option value="1">...</option>
+                        <option value="2">...</option>
+                      </select>
+                    </div>
+                    <div class="ch">
+                      <label for="" style="font-size: 17px ; font-family: Arial, Helvetica, sans-serif;">Habitos
+                        personales</label>
+                    </div>
+                    <div class=" col-6 form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Fuma
+                      </label>
+                    </div>
+                    <div class="col-6 form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                      <label class="form-check-label" for="flexCheckChecked">
+                        Bebe
+                      </label>
+                    </div>
+                    <div class="col-6 form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Droga
+                      </label>
+                    </div>
+                    <div class="col-6 form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                      <label class="form-check-label" for="flexCheckChecked">
+                        Deporte
+                      </label>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Observaciones</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Diagnostico</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Tratamiento</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Receta</label>
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <button type="submit" class="btn btn-primary px-4 float-end mt-4">
+                        Registrar
+                      </button>
+                    </div>
+
+                </div>
+              </div>
+
+            </div>
+            <p class="text-end text-secondary mt-3">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+</html>
